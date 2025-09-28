@@ -1,6 +1,7 @@
 {
     "name": "andy",
 
-    "model": "gpt-4o-mini"
+    "model": "ollama/sweaterdog/Andy-4:latest",
+    "vision_model": "ollama/llava"
 
 }
