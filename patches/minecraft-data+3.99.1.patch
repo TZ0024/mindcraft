@@ -1,0 +1,403 @@
+diff --git a/node_modules/minecraft-data/minecraft-data/data/pc/1.20.5/biomes.json b/node_modules/minecraft-data/minecraft-data/data/pc/1.20.5/biomes.json
+index f897032..90adc3e 100644
+--- a/node_modules/minecraft-data/minecraft-data/data/pc/1.20.5/biomes.json
++++ b/node_modules/minecraft-data/minecraft-data/data/pc/1.20.5/biomes.json
+@@ -638,5 +638,397 @@
+     "dimension": "overworld",
+     "displayName": "Wooded Badlands",
+     "color": 11573093
++  },
++
++
++  {
++    "id": 64,
++    "name": "lush_desert",
++    "category": "mesa",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "lush desert",
++    "color": 11573093
++  },
++  {
++    "id": 65,
++    "name": "lush_swamp",
++    "category": "swamp",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "lush swamp",
++    "color": 11573093
++  },
++  {
++    "id": 66,
++    "name": "mangrove",
++    "category": "swamp",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "mangrove",
++    "color": 11573093
++  },
++  {
++    "id": 67,
++    "name": "maple_woods",
++    "category": "forest",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "maple woods",
++    "color": 11573093
++  },
++  {
++    "id": 68,
++    "name": "marsh",
++    "category": "swamp",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "marsh",
++    "color": 11573093
++  },
++  {
++    "id": 69,
++    "name": "meadow",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "meadow",
++    "color": 11573093
++  },
++  {
++    "id": 70,
++    "name": "moor",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "moor",
++    "color": 11573093
++  },
++  {
++    "id": 71,
++    "name": "mountain",
++    "category": "mountain",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "mountain",
++    "color": 11573093
++  },
++  {
++    "id": 72,
++    "name": "mystic_grove",
++    "category": "forest",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "mystic grove",
++    "color": 11573093
++  },
++  {
++    "id": 73,
++    "name": "ominous_woods",
++    "category": "forest",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "ominous woods",
++    "color": 11573093
++  },
++  {
++    "id": 74,
++    "name": "orchard",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "orchard",
++    "color": 11573093
++  },
++  {
++    "id": 75,
++    "name": "outback",
++    "category": "savanna",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "outback",
++    "color": 11573093
++  },
++  {
++    "id": 76,
++    "name": "overgrown_cliffs",
++    "category": "extreme_hills",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "overgrown cliffs",
++    "color": 11573093
++  },
++  {
++    "id": 77,
++    "name": "prairie",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "prairie",
++    "color": 11573093
++  },
++  {
++    "id": 78,
++    "name": "quagmire",
++    "category": "swamp",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "quagmire",
++    "color": 11573093
++  },
++  {
++    "id": 79,
++    "name": "rainforest",
++    "category": "jungle",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "rainforest",
++    "color": 11573093
++  },
++  {
++    "id": 80,
++    "name": "redwood_forest",
++    "category": "forest",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "redwood forest",
++    "color": 11573093
++  },
++  {
++    "id": 81,
++    "name": "sacred_springs",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "sacred springs",
++    "color": 11573093
++  },
++  {
++    "id": 82,
++    "name": "seasonal_forest",
++    "category": "forest",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "seasonal forest",
++    "color": 11573093
++  },
++  {
++    "id": 83,
++    "name": "shield",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "shield",
++    "color": 11573093
++  },
++  {
++    "id": 84,
++    "name": "shrubland",
++    "category": "savanna",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "shrubland",
++    "color": 11573093
++  },
++  {
++    "id": 85,
++    "name": "snowy_coniferous_forest",
++    "category": "taiga",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "snowy coniferous forest",
++    "color": 11573093
++  },
++  {
++    "id": 86,
++    "name": "snowy_forest",
++    "category": "taiga",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "snowy forest",
++    "color": 11573093
++  },
++  {
++    "id": 87,
++    "name": "steppe",
++    "category": "savanna",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "steppe",
++    "color": 11573093
++  },
++  {
++    "id": 88,
++    "name": "temperate_rainforest",
++    "category": "forest",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "temperate rainforest",
++    "color": 11573093
++  },
++  {
++    "id": 89,
++    "name": "tropical_rainforest",
++    "category": "jungle",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "tropical rainforest",
++    "color": 11573093
++  },
++  {
++    "id": 90,
++    "name": "tundra",
++    "category": "ice",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "tundra",
++    "color": 11573093
++  },
++  {
++    "id": 91,
++    "name": "wasteland",
++    "category": "mesa",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "wasteland",
++    "color": 11573093
++  },
++  {
++    "id": 92,
++    "name": "wetland",
++    "category": "swamp",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "wetland",
++    "color": 11573093
++  },
++  {
++    "id": 93,
++    "name": "woodland",
++    "category": "forest",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "woodland",
++    "color": 11573093
++  },
++  {
++    "id": 94,
++    "name": "xeric_shrubland",
++    "category": "savanna",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "xeric shrubland",
++    "color": 11573093
++  },
++  {
++    "id": 95,
++    "name": "alpsfoothills",
++    "category": "mountain",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "alpsfoothills",
++    "color": 11573093
++  },
++  {
++    "id": 96,
++    "name": "mountainfoothills",
++    "category": "mountain",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "mountainfoothills",
++    "color": 11573093
++  },
++  {
++    "id": 97,
++    "name": "pasture",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "pasture",
++    "color": 11573093
++  },
++  {
++    "id": 98,
++    "name": "glacier",
++    "category": "ice",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "glacier",
++    "color": 11573093
++  },
++  {
++    "id": 99,
++    "name": "oasis",
++    "category": "mesa",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "oasis",
++    "color": 11573093
++  },
++  {
++    "id": 100,
++    "name": "coral_reef",
++    "category": "ocean",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "coral reef",
++    "color": 11573093
++  },
++  {
++    "id": 101,
++    "name": "kelp_forest",
++    "category": "ocean",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "kelp forest",
++    "color": 11573093
++  },
++  {
++    "id": 102,
++    "name": "origin_island",
++    "category": "plains",
++    "temperature": 2.0,
++    "has_precipitation": false,
++    "dimension": "overworld",
++    "displayName": "origin island",
++    "color": 11573093
+   }
+ ]
+\ No newline at end of file

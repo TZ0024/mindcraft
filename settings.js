@@ -1,8 +1,9 @@
 const settings = {
     "minecraft_version": "1.21.1", // supports up to 1.21.1
     "host": "88.151.117.86", // or "localhost", "your.ip.address.here"
+ 
     "port": 25689,
-    "auth": "offline", // or "microsoft"
+    "auth": "offline", // "offline" or "microsoft"
 
     // the mindserver manages all agents and hosts the UI
     "mindserver_port": 8080,
@@ -24,8 +25,8 @@ const settings = {
         // individual profiles override values from the base profile
     ],
 
-    "load_memory": false, // load memory from previous session
-    "init_message": "Respond with login command exactly as follows: /l nissanwingroad", // sends to all on spawn
+    "load_memory": true, // load memory from previous session
+    "init_message": "Respond with hello and your name", // sends to all on spawn
     "only_chat_with": [], // users that the bots listen to and send general messages to. if empty it will chat publicly
     "speak": false, // allows all bots to speak through system text-to-speech. works on windows, mac, on linux you need to `apt install espeak`
     "language": "en", // translate to/from this language. Supports these language names: https://cloud.google.com/translate/docs/languages
